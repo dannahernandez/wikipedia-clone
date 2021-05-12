@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Wikipedia Clone</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-header">
+            <h1>Wikipedia</h1>
+            <p>La enciclopedia libre</p>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png"
+                alt="Logo central wikipedia" />
+            <div class="row-1">
+                <div class="language-container left">
+                    <a href="#">Español</a>
+                    <span> 1 681 00+ artículos</span>
+                </div>
+                <div class="language-container right">
+                    <a href="#">English</a>
+                    <span>6 295 000+ articles</span>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="language-container left">
+                    <a href="#">日本語</a>
+                    <span>1 267 00+ 記事</span>
+                </div>
+                <div class="language-container right">
+                    <a href="#">Deutsch</a>
+                    <span>2 574 000+ articles</span>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="language-container left">
+                    <a href="">Русский</a>
+                    <span>1 722 00+ статей</span>
+                </div>
+                <div class="language-container right">
+                    <a href="">Français</a>
+                    <span>2 326 000+ articles</span>
+                </div>
+            </div>
+            <div class="row-4">
+                <div class="language-container left">
+                    <a href="">Italiano</a>
+                    <span>1 691 000+ voci</span>
+                </div>
+                <div class="language-container right">
+                    <a href="">中文</a>
+                    <span>1 195 000+ 條目</span>
+                </div>
+            </div>
+            <div class="row-5">
+                <div class="language-container left">
+                    <a href="">Português</a>
+                    <span>1 066 000+ artigos</span>
+                </div>
+                <div class="language-container right">
+                    <a href="">Polski</a>
+                    <span>1 472 000+ haseł</span>
+                </div>
+            </div>
+        </div>
+        <section class="input-search">
+            <div class="box-search">
+                <div class="search-input-container">
+                    <input type="text" class="input-search">
+                </div>
+                <div class="input-language">
+                    <select name="language" id="language">
+                        <option value="ES">ES</option>
+                    </select>
+                </div>
+            </div>
+            <button class="btn-search" type="submit">
+                <i class="sprite search-icon"></i>
+            </button>
+        </section>
+        <section class="translate-button">
+            <div class="line-decoration">
+                <hr>
+            </div>
+            <button>
+                <i class="sprite translate-icon"></i>
+                <span>Leer Wikipedia en tu idioma</span>
+                <i class="sprite icon-arrow-down-blue"></i>
+            </button>
+        </section>
+        <div class="line-full"></div>
+    </main>
+    <section class="wiki-sidebar">
+        <div class="sidebar-left">
+            <div class="sidebar-content">
+                <div class="sprite svg-Wikimedia-icon"></div>
+                <div class="sidebar-text">
+                    Wikipedia es alojada por la Fundación Wikimedia, una organización sin fines de lucro que también
+                        alberga una gama de otros proyectos. <a href="https://donate.wikimedia.org/">Usted puede apoyar
+                            nuestro trabajo con una donación</a>
+                </div>
+            </div>
+            <div class="sidebar-content app">
+                <div class="sprite svg-wikiapp-icon"></div>
+                <div class="sidebar-text">
+                    <strong>Descargar Wikipedia para Android o iOS</strong>
+                    <br>
+                    <br>
+                    Guarda tus artículos favoritos para leerlos sin conexión, sincroniza tus listas de lectura en
+                        varios dispositivos y personaliza tu experiencia de lectura con la aplicación oficial de
+                        Wikipedia.
+                    <br>
+                    <br>
+                    <ul>
+                        <li><a href="#"><span class="sprite svg-google-playstore"></span></a></li>
+                        <li><a href="#"><span class="sprite svg-ios-playstore"></span></a></li>
+                    </ul>    
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-right">
+            <section class="section-1">
+                <div class="project-content">
+                    <a href="https://commons.wikimedia.org/">
+                        <div class="sprite svg-icon-common-sister"></div>
+                        <div class="text-project">
+                            <span class="project-title">
+                                Commons
+                            </span>
+                            <span class="tagline">
+                                Fotos libremente utilizables y más
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-content">
+                    <a href="https://www.wikibooks.org/">
+                        <div class="sprite svg-icon-Wikibooks-sister"></div>
+                        <div class="text-project">
+                            <span class="project-title">
+                                Wikibooks
+                            </span>
+                            <span class="tagline">
+                                Libros de contenido libre
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-content">
+                    <a href="https://www.wikiversity.org/">
+                        <div class="sprite svg-icon-Wikiversity-sister"></div>
+                        <div class="text-project">
+                            <span class="project-title">
+                                Wikiversidad
+                            </span>
+                            <span class="tagline">
+                                Plataforma educativa libre
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-content">
+                    <a href="https://wikisource.org/">
+                        <div class="sprite svg-icon-Wikisource-sister"></div>
+                        <div class="text-project">
+                            <span class="project-title">
+                                Wikisource
+                            </span>
+                            <span class="tagline">
+                                La biblioteca libre
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section class="section-2">
+                <div class="project-content">
+                    <a href="https://commons.wikimedia.org/">
+                        <div class="sprite svg-icon-common-sister"></div>
+                        <div class="text-project">
+                            <span class="project-title">
+                                Commons
+                            </span>
+                            <span class="tagline">
+                                Fotos libremente utilizables y más
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-content">
+                    <a href="https://www.wikibooks.org/">
+                        <div class="sprite svg-icon-Wikibooks-sister"></div>
+                        <div class="text-project">
+                            <span class="project-title">
+                                Wikibooks
+                            </span>
+                            <span class="tagline">
+                                Libros de contenido libre
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-content">
+                    <a href="https://www.wikiversity.org/">
+                        <div class="sprite svg-icon-Wikiversity-sister"></div>
+                        <div class="text-project">
+                            <span class="project-title">
+                                Wikiversidad
+                            </span>
+                            <span class="tagline">
+                                Plataforma educativa libre
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-content">
+                    <a href="https://wikisource.org/">
+                        <div class="sprite svg-icon-Wikisource-sister"></div>
+                        <div class="text-project">
+                            <span class="project-title">
+                                Wikisource
+                            </span>
+                            <span class="tagline">
+                                La biblioteca libre
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section class="section-3">
+                <div class="project-content">
+                    <a href="https://commons.wikimedia.org/">
+                        <div class="sprite svg-icon-common-sister"></div>
+                        <div class="text-project">
+                            <span class="project-title">
+                                Commons
+                            </span>
+                            <span class="tagline">
+                                Fotos libremente utilizables y más
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-content">
+                    <a href="https://www.wikibooks.org/">
+                        <div class="sprite svg-icon-Wikibooks-sister"></div>
+                        <div class="text-project">
+                            <span class="project-title">
+                                Wikibooks
+                            </span>
+                            <span class="tagline">
+                                Libros de contenido libre
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-content">
+                    <a href="https://www.wikiversity.org/">
+                        <div class="sprite svg-icon-Wikiversity-sister"></div>
+                        <div class="text-project">
+                            <span class="project-title">
+                                Wikiversidad
+                            </span>
+                            <span class="tagline">
+                                Plataforma educativa libre
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-content">
+                    <a href="https://wikisource.org/">
+                        <div class="sprite svg-icon-Wikisource-sister"></div>
+                        <div class="text-project">
+                            <span class="project-title">
+                                Wikisource
+                            </span>
+                            <span class="tagline">
+                                La biblioteca libre
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </section>
+
+</body>
+
+</html>

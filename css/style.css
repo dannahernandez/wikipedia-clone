@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Lato,
+    Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 3rem 0 1.6rem;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #36c;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+main{
+    margin-top: 25px;
+}
+
+.main-container {
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(5, 65px);
+  grid-template-areas:
+    "row1"
+    "row2"
+    "row3"
+    "row4"
+    "row5";
+  justify-content: center;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 30px;
+}
+
+.main-container img {
+  position: absolute;
+  left: calc(50% - 100px);
+  top: 75px;
+}
+
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.row-1 {
+  grid-area: row1;
+  width: 400px;
+}
+
+.row-2 {
+  grid-area: row2;
+  width: 500px;
+}
+
+.row-3 {
+  grid-area: row3;
+  width: 520px;
+}
+
+.row-4 {
+  grid-area: row4;
+  width: 500px;
+}
+
+.row-5 {
+  grid-area: row5;
+  width: 400px;
+}
+
+.language-container {
+  text-align: center;
+}
+
+.language-container a {
+  display: block;
+}
+
+.main-container a {
+  color: #36c;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.main-container span {
+  color: #54595d;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.input-search {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.box-search {
+  display: flex;
+  align-items: center;
+  width: 376px;
+  border: 1px solid #a2a9b1;
+  border-radius: 3px;
+}
+
+.search-input-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.box-search input {
+  height: 33px;
+  width: 325px;
+  outline: none;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+  margin-left: 5px;
+  border: none;
+}
+
+.input-language select {
+  width: 40px;
+  border: none;
+  outline: none;
+  color: #a2a9b1;
+}
+
+.btn-search {
+  background-color: #36c;
+  height: 40px;
+  width: 50px;
+  border: 0;
+  border-radius: 0px 3px 3px 0px;
+  cursor: pointer;
+}
+
+.sprite {
+  background-image: url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-9ba8de1b.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.search-icon {
+  background-position: 0 -669px;
+  width: 30px;
+  height: 22px;
+  margin-left: 5px;
+}
+
+.translate-button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-decoration {
+  width: 440px;
+}
+
+.translate-button button {
+  position: absolute;
+  align-items: center;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+  background-color: #f8f9fa;
+  font-size: 13px;
+  padding: 7px 12px 7px 12px;
+  color: #3366cc;
+  cursor: pointer;
+  outline: #fff solid 16px;
+}
+
+.icon-arrow-down-blue {
+  background-position: 0 -527px;
+  width: 12px;
+  height: 8px;
+}
+
+.translate-icon {
+  background-position: 0 -691px;
+  width: 25px;
+  height: 18px;
+}
+.line-full {
+  height: 1px;
+  background-color: #c8ccd1;
+  margin: 25px 20px 10px;
+}
+
+.wiki-sidebar {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar-left {
+  width: 40%;
+  margin-top: 20px;
+}
+
+.sidebar-content {
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+  max-width: 350px;
+  margin: 15px auto;
+}
+
+.svg-Wikimedia-icon {
+  background-position: 0 -212px;
+  width: 42px;
+  height: 42px;
+}
+
+.sidebar-text {
+  width: 90%;
+  line-height: 18px;
+  padding-left: 15px;
+}
+
+.app {
+  background-color: #f8f9fa;
+  padding: 12px;
+}
+
+.svg-wikiapp-icon {
+  background-position: 0 -709px;
+  width: 42px;
+  height: 42px;
+}
+.svg-google-playstore {
+  background-position: 0 -535px;
+  width: 124px;
+  height: 38px;
+}
+
+.svg-ios-playstore {
+  background-position: 0 -573px;
+  width: 110px;
+  height: 38px;
+}
+
+.sidebar-right {
+  width: 70%;
+  margin-top: 35px;
+  display: flex;
+}
+
+.section-1 {
+  width: 33%;
+}
+
+.project-content {
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+
+.project-content a {
+  display: flex;
+}
+
+.svg-icon-common-sister {
+  background-position: 0 0;
+  width: 47px;
+  height: 47px;
+}
+
+.text-project {
+  padding-left: 10px;
+}
+
+.project-title {
+  display: block;
+}
+
+.tagline {
+  font-size: 12px;
+  color: #54595d;
+}
+
+.svg-icon-Wikibooks-sister {
+  background-position: 0 -126px;
+  width: 37px;
+  height: 37px;
+}
+
+.svg-icon-Wikiversity-sister {
+    background-position: 0 -409px;
+    width: 43px;
+    height: 37px;
+}
+
+.svg-icon-Wikisource-sister {
+    background-position: 0 -328px;
+    width: 39px;
+    height: 39px;
+}
