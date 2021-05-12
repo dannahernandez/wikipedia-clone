@@ -232,7 +232,7 @@ main{
   justify-content: center;
   font-size: 1.3rem;
   max-width: 350px;
-  margin: 15px auto;
+  margin: 35px auto;
 }
 
 .svg-Wikimedia-icon {
@@ -245,6 +245,11 @@ main{
   width: 90%;
   line-height: 18px;
   padding-left: 15px;
+}
+
+.sidebar-text li{
+  list-style: none;
+  display: inline-block;
 }
 
 .app {
@@ -275,7 +280,7 @@ main{
   display: flex;
 }
 
-.section-1 {
+.section-1, .section-2, .section-3 {
   width: 33%;
 }
 
@@ -324,3 +329,70 @@ main{
     width: 39px;
     height: 39px;
 }
+
+.svg-icon-Wikivoyage-sister {
+  background-position: 0 -446px;
+  width: 36px;
+  height: 36px;
+}
+
+.svg-icon-wikinews {
+  background-image: url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister.png);
+  background-position: 0 0;
+  -webkit-background-size: 47px 26px;
+  -moz-background-size: 47px 26px;
+  background-size: 47px 26px;
+  width: 47px;
+  height: 26px;
+}
+
+.svg-icon-Wikiquote {
+  background-position: 0 -286px;
+  width: 42px;
+  height: 42px;
+}
+
+.svg-icon-Wikispecies {
+  background-position: 0 -367px;
+  width: 42px;
+  height: 42px;
+}
+
+.svg-icon-Wiktionary-sister {
+  background-position: 0 -482px;
+  width: 37px;
+  height: 37px;
+}
+
+.svg-icon-wikidata {
+  background-position: 0 -163px;
+  width: 49px;
+  height: 49px;
+}
+
+.svg-icon-MediaWiki {
+  background-position: 0 -47px;
+  width: 42px;
+  height: 42px;
+}
+
+.svg-icon-Meta-Wiki {
+  background-position: 0 -89px;
+  width: 37px;
+  height: 37px;
+}
+
+footer{
+  height: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+footer li{
+  
+  margin-left: 25px;
+  
+}
+
